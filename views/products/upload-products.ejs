@@ -1,0 +1,20 @@
+<!-- Modal -->
+  <div class="modal fade" id="upload-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+           <h4 class="modal-title">Upload New Products</h4>
+        </div>
+        <div class="modal-body">
+          <form enctype="multipart/form-data" class="form-inline" id="upload-form" >  <!-- method="POST"  action="/upload" -->
+            <div class="form-group">
+              <!-- <input  type="file" id="file-upload" onchange="loadFile(event)" class="form-control" name="myFile"> -->
+              <input type="file" class="form-control" id="file-upload" name="myFile">
+            </div>
+            <button type="submit" class="btn btn-success"> Upload </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>

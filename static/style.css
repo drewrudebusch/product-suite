@@ -1,0 +1,119 @@
+.hidden {
+  visibility: hidden;
+}
+#signup {
+  max-width: 800px;
+  background-color: #E0E0E0;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-top: 150px;
+  border-radius: 5px;
+}
+#already-member {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+#signup-prompt {
+    display: block;
+    clear: both;
+}
+.signup-field {
+  width: 60%;
+}
+#username-error, #password-error {
+  color: red;
+}
+#login-modal {
+  margin-top: 150px;
+}
+#header-alerts {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.navbar-nav li p {
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#myProducts-page-title {
+  margin-bottom: 40px;
+}
+#delete-products {
+  height: 34px;
+  margin-bottom: 3px;
+}
+#file-input {
+  display: inline-block;
+  height: 30px;
+  width: 350px;
+}
+#file-upload {
+  width: 250px;
+  display: inline-block;
+}
+#cancel-upload {
+  height: 34px;
+  margin-bottom: 3px;
+}
+#upload-products {
+  height: 34px;
+  margin-bottom: 3px;
+}
+.product-table {
+  table-layout: fixed;
+}
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.checkbox {
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+}
+/* Column widths are based on these cells */
+.col-delete {
+  width: 50px;
+}
+.col-name {
+  width: 200px;
+}
+.col-description {
+  width: 200px;
+}
+.col-brand {
+  width: 80px;
+}
+.col-color {
+  width: 75px;
+}
+.col-size {
+  width: 50px;
+}
+.col-UPC {
+  width: 100px;
+}
+.col-gender {
+  width: 75px;
+}
+.col-coo {
+  width: 100px;
+}
+.col-vendorSKU {
+  width: 80px;
+}
+.col-cost {
+  width: 75px;
+}
+.col-retail {
+  width: 75px;
+}
+.col-MSRP {
+  width: 75px;
+}
+th {
+  vertical-align: bottom;
+}

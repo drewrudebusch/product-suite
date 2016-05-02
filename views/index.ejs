@@ -1,0 +1,35 @@
+<div id="signup" class="container-fluid">
+	<div id="already-member" class="pull-right">
+    <p>Already have an account? <button type="button" class="btn btn-primary btn-sm align-right" data-toggle="modal" data-target="#login-modal">
+  Sign in
+</button></p>
+</div>
+<div id="signup-prompt" class="container-fluid">
+  <h1> Welcome to Product Suite </h1>
+  <h4> Sign up for a free account! </h4>
+
+  <form id="signup-form" class="form-horizontal" method="POST" action="/signup">
+    <div class="form-group">
+      <label for="signup-email" class="col-sm-2 control-label"> Email </label>
+      <div class="col-sm-10 signup-field">
+        <input type="email" class="form-control required" id="signup-email" name="email" placeholder="Email">
+      </div>
+      <span id="username-error" class="hidden"> Not a valid email address </span>
+    </div>
+    <div class="form-group">
+      <label for="signup-password" class="col-sm-2 control-label"> Password </label>
+      <div class="col-sm-10 signup-field text-left required">
+        <input type="password" class="form-control" id="signup-password" name="password" placeholder="Password">
+        <p>Password must be minimum of 8 characters</p>
+      </div>
+      <span id="password-error" class="hidden"> Not a valid password </span>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary"> Create Account </button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<% include login-modal.ejs %>
